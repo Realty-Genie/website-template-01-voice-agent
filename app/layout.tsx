@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Outfit, Playfair_Display } from "next/font/google";
 import "./globals.css";
+import Chatbot from "@/components/Chatbot";
 
 const outfit = Outfit({
   variable: "--font-outfit",
@@ -28,6 +29,7 @@ export default function RootLayout({
         className={`${outfit.variable} ${playfair.variable} antialiased font-sans`}
       >
         {children}
+        <Chatbot />
       </body>
     </html>
   );
