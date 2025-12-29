@@ -9,7 +9,7 @@ export function Hero() {
       <div className="absolute inset-0 z-0">
         <LiveStream
           className="w-full h-full object-cover block pointer-events-none"
-          playlistUrl="http://ik.imagekit.io/mohakgupta/hero_background.mp4/ik-master.m3u8?tr=sr-360_480_720_1080"
+          playlistUrl="https://ik.imagekit.io/mohakgupta/hero_background.mp4/ik-master.m3u8?tr=sr-360_480_720_1080"
         />
       </div>
       {/* Overlay */}
