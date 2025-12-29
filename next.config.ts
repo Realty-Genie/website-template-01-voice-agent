@@ -20,7 +20,14 @@ const nextConfig = {
         protocol: "https",
         hostname: "i.ytimg.com",
         pathname: "/**",
-      }
+      },
+      {
+        protocol: 'https',
+        hostname: 'ik.imagekit.io',
+        // Optional: you can add port and pathname if needed for more specific paths
+        // port: '',
+        // pathname: '/your_imagekit_id/**', 
+      },
     ],
   },
 };
